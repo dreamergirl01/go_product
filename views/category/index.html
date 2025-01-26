@@ -43,9 +43,9 @@
             <tr>
                 <td>{{ .Name }}</td>
                 <td>
-                    <a href="/categories/edit?id={{ .Id }}" class="btn btn-warnig text-light">EDIT</a>
+                    <a href="/categories/edit?id={{ .Id }}" class="btn btn-warning text-light">Edit</a>
                     <a href="/categories/delete?id={{ .Id }}" class="btn btn-danger text-light" 
-                    onclick="return confirm('Are You Sure Want To Delete This Category')">DELETE</a>
+                    onclick="return confirm('Are You Sure Want To Delete This Category')">Delete</a>
                 </td>
             </tr>
             {{ end }}
