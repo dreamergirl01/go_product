@@ -26,3 +26,7 @@ func GetAll() []entities.Category {
 
 	return categories
 }
+
+func Create(category entities.Category)  {
+	// config.DB.Exec(``)
+}
